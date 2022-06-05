@@ -14,7 +14,6 @@ public class Ejercicio3_falto {
         System.out.print("Ingresar numero del 1 al 20: ");
         var m = scanner.nextInt();
         scanner.close(); //cerrando el scanner
-        int getIndex=0;
 
         var lista = new ArrayList<Integer>();
 
