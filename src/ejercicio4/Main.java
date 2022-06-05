@@ -8,23 +8,17 @@ public class Main {
      }
 
      static void ex1(){
-         String id;
-         String marca;
-         double peso;
-         double precio;
-         int ramEnGb;
-
          Scanner scanner = new Scanner(System.in);
          System.out.print("Ingrese el ID: ");
-         id= scanner.nextLine();
+         var id= scanner.nextLine();
          System.out.print("Ingrese la marca: ");
-         marca= scanner.nextLine();
+         var marca= scanner.nextLine();
          System.out.print("Ingrese el peso: ");
-         peso = scanner.nextDouble();
+         var peso = scanner.nextDouble();
          System.out.print("Ingrese el precio: ");
-         precio = scanner.nextDouble();
+         var precio = scanner.nextDouble();
          System.out.print("Ingrese el ramEnGB: ");
-         ramEnGb = scanner.nextInt();
+         var ramEnGb = scanner.nextInt();
          scanner.close();
 
          var computadora=new Computadora(id,precio,marca);
