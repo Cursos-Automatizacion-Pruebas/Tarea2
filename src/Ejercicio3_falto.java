@@ -20,7 +20,6 @@ public class Ejercicio3_falto {
         for (int i=1; i<=n; i++) {
             lista.add(i);
             System.out.println("----: " + i);
-
         }
     }
 }
