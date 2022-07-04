@@ -1,9 +1,8 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
 import java.util.Scanner;
 
-public class Ejercicio3_falto {
+public class Ejercicio3 {
     public static void main(String[] args) {
         ex1();
     }
@@ -19,7 +18,15 @@ public class Ejercicio3_falto {
 
         for (int i=1; i<=n; i++) {
             lista.add(i);
-            System.out.println("----: " + i);
+        }
+
+        try {
+            lista.get(m);
+            System.out.println("jijiji no me caí");
+        }catch (IndexOutOfBoundsException indexOutOfBoundsException){
+            System.out.println("pipipippipi, me cai");
+        }finally {
+            System.out.println("así se caiga o no, yo sigo estudiando mucho");
         }
     }
 }

@@ -44,7 +44,6 @@ public class Ejercicio2 {
             sumaTotal = sumaTotal + precioEnNumero;
         }
 
-        // String.format: sirve para xpath dinamico
         var imprimirSumatotal = String.format("Precio total: S/ %f",sumaTotal);
         System.out.println(imprimirSumatotal);
     }

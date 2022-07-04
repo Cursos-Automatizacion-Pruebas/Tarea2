@@ -17,7 +17,6 @@ public class Ejercicio1 {
         var cadena4 = scanner.nextLine();
         scanner.close(); //cerrando el scanner
 
-        //el pdf de tarea indica concat, pero  hare el cambio a +
         System.out.println(
                         cadena1 + " " +
                         cadena2 + " " +
