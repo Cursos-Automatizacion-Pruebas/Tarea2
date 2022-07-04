@@ -16,7 +16,7 @@ public class Ejercicio3 {
 
         var lista = new ArrayList<Integer>();
 
-        for (int i=1; i<=n; i++) {
+        for (var i=1; i<=n; i++) {
             lista.add(i);
         }
 
