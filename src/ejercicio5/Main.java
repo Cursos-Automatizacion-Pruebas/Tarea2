@@ -8,30 +8,31 @@ public class Main {
     }
 
     static void ex1(){
-        int edad1;
-        String nombre1;
-        double peso1;
-        int edad2;
-        String nombre2;
-        double peso2;
-
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("---------------------VALORES 1----------------");
+
         System.out.print("Ingrese la edad1: ");
-        edad1 = scanner.nextInt();
+        var edad1 = scanner.nextInt();
         scanner.nextLine();
+
         System.out.print("Ingrese la nombre1: ");
-        nombre1= scanner.nextLine();
+        var nombre1= scanner.nextLine();
+
         System.out.print("Ingrese el peso1: ");
-        peso1 = scanner.nextDouble();
+        var peso1 = scanner.nextDouble();
+
         System.out.println("---------------------VALORES 2----------------");
+
         System.out.print("Ingrese la edad2: ");
-        edad2 = scanner.nextInt();
+        var edad2 = scanner.nextInt();
         scanner.nextLine();
+
         System.out.print("Ingrese la nombre2: ");
-        nombre2= scanner.nextLine();
+        var nombre2= scanner.nextLine();
+
         System.out.print("Ingrese el peso2: ");
-        peso2 = scanner.nextDouble();
+        var peso2 = scanner.nextDouble();
         scanner.close();
 
         var oso1=new Oso();
