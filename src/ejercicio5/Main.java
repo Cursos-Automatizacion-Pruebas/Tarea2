@@ -9,21 +9,28 @@ public class Main {
 
     static void ex1(){
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("---------------------VALORES 1----------------");
+
         System.out.print("Ingrese la edad1: ");
         var edad1 = scanner.nextInt();
         scanner.nextLine();
+
         System.out.print("Ingrese la nombre1: ");
         var nombre1= scanner.nextLine();
+
         System.out.print("Ingrese el peso1: ");
         var peso1 = scanner.nextDouble();
 
         System.out.println("---------------------VALORES 2----------------");
+
         System.out.print("Ingrese la edad2: ");
         var edad2 = scanner.nextInt();
         scanner.nextLine();
+
         System.out.print("Ingrese la nombre2: ");
         var nombre2= scanner.nextLine();
+
         System.out.print("Ingrese el peso2: ");
         var peso2 = scanner.nextDouble();
         scanner.close();

@@ -9,16 +9,22 @@ public class Ejercicio2 {
 
     static void ex1() {
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Ingrese el 1er numero 1: ");
         var a = scanner.nextDouble();
+
         System.out.print("Ingrese el 2ndo numero 2: ");
         var b = scanner.nextDouble();
+
         System.out.print("Ingrese el 3er numero 3: ");
         var c = scanner.nextDouble();
+
         System.out.print("Ingrese el 4to numero 4: ");
         var d = scanner.nextDouble();
+
         System.out.print("Ingrese el 5to numero 5: ");
         var e = scanner.nextDouble();
+
         scanner.close();
 
         var moneda = "PEN";

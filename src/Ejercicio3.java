@@ -8,10 +8,13 @@ public class Ejercicio3 {
     }
     static void ex1() {
         Scanner scanner = new Scanner(System.in); //inicializamos el scanner
+
         System.out.print("Ingresar numero del 1 al 10: ");
         var n = scanner.nextInt();
+
         System.out.print("Ingresar numero del 1 al 20: ");
         var m = scanner.nextInt();
+
         scanner.close(); //cerrando el scanner
 
         var lista = new ArrayList<Integer>();

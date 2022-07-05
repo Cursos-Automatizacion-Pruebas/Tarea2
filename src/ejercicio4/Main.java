@@ -9,16 +9,22 @@ public class Main {
 
      static void ex1(){
          Scanner scanner = new Scanner(System.in);
+
          System.out.print("Ingrese el ID: ");
          var id= scanner.nextLine();
+
          System.out.print("Ingrese la marca: ");
          var marca= scanner.nextLine();
+
          System.out.print("Ingrese el peso: ");
          var peso = scanner.nextDouble();
+
          System.out.print("Ingrese el precio: ");
          var precio = scanner.nextDouble();
+
          System.out.print("Ingrese el ramEnGB: ");
          var ramEnGb = scanner.nextInt();
+
          scanner.close();
 
          var computadora=new Computadora(id,precio,marca);
